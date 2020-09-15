@@ -1,0 +1,71 @@
+.breadcrump{
+  background-color: rgb(235, 235, 235);
+  text-align: center;
+}
+
+.breadcrump ul {
+  padding: 10px 0px;
+}
+.breadcrump li{
+  position: relative;
+  display: inline-block;
+  margin-right: 11px;
+  background-color: rgb(69 178 189);
+  color: white;
+  width: 100px;
+}
+
+.breadcrump li:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100px;
+  border-style: solid;
+  border-width: 12px 0 12px 11.6px;
+  border-color: transparent transparent transparent rgb(69 178 189);
+}
+
+.breadcrump li.active{
+  background-color: rgb(121 69 189);
+}
+.breadcrump li.active:after{
+  border-color: transparent transparent transparent rgb(121 69 189);
+}
+
+
+.form-input{
+  border: solid 1px #c3c3c3;
+}
+
+form label{
+  width: 150px;
+  display: inline-block;
+  padding: 11px 10px;
+  background-color: #dadada;
+}
+
+form input {
+  height: 26px;
+    width: 300px;
+}
+
+.btn-submit{
+  background-color: #41b5b5;
+    color: white;
+    margin-top: 20px;
+    width: 100px;
+    padding: 10px;
+    height: auto;
+    border-radius: 6px;
+    border: none;
+    font-size: 17px;
+}
+
+.links a {
+  display: block;
+  border-top: solid 1px #c7c7c7;
+  border-bottom: solid 1px #c7c7c7;
+  margin-top: 15px;
+  padding: 10px;
+  text-decoration: none;
+}
